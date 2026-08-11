@@ -2,7 +2,7 @@
 open Printf
 
 let read_whole_chan chan = 
-  let but = Buffer.create 4096 in
+  let buf = Buffer.create 4096 in
   let rec loop () = 
     let line = input_line chan in
     Buffer.add_string buf line;
