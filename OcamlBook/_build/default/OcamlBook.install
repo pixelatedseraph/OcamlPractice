@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/OcamlBook/META"
+  "_build/install/default/lib/OcamlBook/dune-package"
+  "_build/install/default/lib/OcamlBook/opam"
+]
+bin: [
+  "_build/install/default/bin/OcamlBook"
+]
